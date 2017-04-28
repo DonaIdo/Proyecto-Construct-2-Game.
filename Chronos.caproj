@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1as3kriuam5dg</unique-id>
+    <saved-with-version>23900</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type global="1" name="TiledBackground" sid="278134046462848">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\perion map\back_0.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="287533820796829">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="565998264204321">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\tile de piedra alv\enH0_0.png" />
+        </object-type>
+        <object-type name="Sprite" sid="605683278209907">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="641667054639428">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="935028885883141">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="527318799952674">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Stand" pingpong="1" repeatcount="1" repeatto="0" sid="467331511668084" speed="2">
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.514706" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\stand1_0.png">
+                        <collision-poly>
+                            <point x="0.233333" y="0.205882" />
+                            <point x="0.5" y="0" />
+                            <point x="0.866667" y="0.117647" />
+                            <point x="0.816667" y="0.5" />
+                            <point x="0.833333" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0333333" y="0.970588" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.514706" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\stand1_1.png">
+                        <collision-poly>
+                            <point x="0.233333" y="0.205882" />
+                            <point x="0.5" y="0" />
+                            <point x="0.866667" y="0.117647" />
+                            <point x="0.816667" y="0.5" />
+                            <point x="0.833333" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0333333" y="0.970588" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.514706" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\stand1_2.png">
+                        <collision-poly>
+                            <point x="0.233333" y="0.205882" />
+                            <point x="0.5" y="0" />
+                            <point x="0.866667" y="0.117647" />
+                            <point x="0.816667" y="0.5" />
+                            <point x="0.833333" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.05" y="0.955882" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.483333" hotspotY="0.514706" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\stand1_3.png">
+                        <collision-poly>
+                            <point x="0.233333" y="0.205882" />
+                            <point x="0.5" y="0" />
+                            <point x="0.866667" y="0.117647" />
+                            <point x="0.816667" y="0.5" />
+                            <point x="0.833333" y="0.852941" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0333333" y="0.970588" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Walking" pingpong="0" repeatcount="1" repeatto="0" sid="498626498576525" speed="5">
+                    <frame duration="1" hotspotX="0.439394" hotspotY="0.588235">
+                        <collision-poly>
+                            <point x="0.287879" y="0.279412" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.878788" y="0.117647" />
+                            <point x="0.787879" y="0.794118" />
+                            <point x="0.5" y="1" />
+                            <point x="0.287879" y="0.720588" />
+                            <point x="0.333333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.439394" hotspotY="0.588235" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\walk1_1.png">
+                        <collision-poly>
+                            <point x="0.287879" y="0.279412" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.878788" y="0.117647" />
+                            <point x="0.80303" y="0.808824" />
+                            <point x="0.5" y="1" />
+                            <point x="0.272727" y="0.735294" />
+                            <point x="0.333333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.439394" hotspotY="0.588235" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\walk1_2.png">
+                        <collision-poly>
+                            <point x="0.287879" y="0.279412" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.878788" y="0.117647" />
+                            <point x="0.787879" y="0.794118" />
+                            <point x="0.5" y="1" />
+                            <point x="0.287879" y="0.720588" />
+                            <point x="0.333333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.439394" hotspotY="0.588235" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\walk1_3.png">
+                        <collision-poly>
+                            <point x="0.287879" y="0.279412" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.878788" y="0.117647" />
+                            <point x="0.787879" y="0.794118" />
+                            <point x="0.5" y="1" />
+                            <point x="0.287879" y="0.720588" />
+                            <point x="0.333333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="669767705391168" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\jump_0.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.132353" />
+                            <point x="0.5" y="0.0294118" />
+                            <point x="0.82" y="0.132353" />
+                            <point x="0.82" y="0.867647" />
+                            <point x="0.5" y="0.867647" />
+                            <point x="0.14" y="0.897059" />
+                            <point x="0.12" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="Slash" pingpong="0" repeatcount="1" repeatto="0" sid="269600517060983" speed="4">
+                    <frame duration="1" hotspotX="0.480392" hotspotY="0.536232" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\hit\frame 0\swingO1_0.png">
+                        <collision-poly>
+                            <point x="0.303922" y="0.449275" />
+                            <point x="0.5" y="0.101449" />
+                            <point x="0.72549" y="0.405797" />
+                            <point x="0.705882" y="0.492754" />
+                            <point x="0.872549" y="0.811594" />
+                            <point x="0.5" y="1" />
+                            <point x="0.323529" y="0.521739" />
+                            <point x="0.323529" y="0.492754" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.284314" hotspotY="0.507246" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\hit\frame 0\swingO1_1.png">
+                        <collision-poly>
+                            <point x="0.27451" y="0.405797" />
+                            <point x="0.5" y="0.0289855" />
+                            <point x="0.686275" y="0.463768" />
+                            <point x="0.666667" y="0.492754" />
+                            <point x="0.666667" y="0.507246" />
+                            <point x="0.5" y="1" />
+                            <point x="0.313726" y="0.536232" />
+                            <point x="0.323529" y="0.492754" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.284314" hotspotY="0.507246" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\hit\frame 0\swingO1_2.png">
+                        <collision-poly>
+                            <point x="0.0882353" y="0.130435" />
+                            <point x="0.5" y="0.391304" />
+                            <point x="0.480392" y="0.768116" />
+                            <point x="0.54902" y="0.492754" />
+                            <point x="0.588235" y="0.391304" />
+                            <point x="0.5" y="1" />
+                            <point x="0.196078" y="0.710145" />
+                            <point x="0.00980392" y="0.492754" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Turn" pingpong="0" repeatcount="1" repeatto="0" sid="380393280981622" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="858871835960349">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\Prota\blink\frame 0\stand1_0.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="731993002329080">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="313813854337837">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\tile de piedra alv\enH0_2.png" />
+        </object-type>
+        <object-type name="Keyboard" sid="831307256309180">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite2" sid="429259392726654">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="974586014749141">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588088388933067" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\donal\Desktop\CONSTRUCT SPRITES &amp; PARTICLES\tile de piedra alv\edU_0.png">
+                        <collision-poly>
+                            <point x="0.0757576" y="0.138889" />
+                            <point x="0.5" y="0" />
+                            <point x="0.924242" y="0.138889" />
+                            <point x="0.924242" y="0.5" />
+                            <point x="0.863636" y="0.75" />
+                            <point x="0.5" y="1" />
+                            <point x="0.151515" y="0.722222" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="3" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
